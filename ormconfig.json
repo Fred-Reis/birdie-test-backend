@@ -1,0 +1,11 @@
+{
+  "type": "mysql",
+  "host": "birdie-test.cyosireearno.eu-west-2.rds.amazonaws.com",
+  "port": "3306",
+  "username": "test-read",
+  "password": "xnxPp6QfZbCYkY8",
+  "database": "birdietest",
+  "entities": ["**/src/entity/*{.ts,.js}"],
+  "logging": false,
+  "synchronize": false
+}

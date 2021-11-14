@@ -9,9 +9,6 @@ import { eventRouters } from "../routes/events.routes";
 
 import swaggerFile from "../../swagger.json";
 
-const port = process.env.PORT || 8000;
-const APP_URL = process.env.APP_URL || `http://localhost:${port}`;
-
 const app = express();
 // eslint-disable-next-line @typescript-eslint/no-floating-promises
 createConnection();

@@ -1,0 +1,99 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Birdie-tesy Documentation",
+    "description": "This is an API Rest to get some events for Care Recipients",
+    "version": "1.0.0",
+    "contact": {
+      "email": "fredgost@hotmail.com"
+    }
+  },
+  "paths":{
+    "/events": {
+      "get":{
+        "tags": ["Events"],
+        "summary": "Retrive Events",
+        "description":"Retrive a list of events from a Care Recipient",
+        "responses":{
+          "200":{
+            "description": "success",
+            "content": {
+              "application/json":{
+                "schema": {
+                  "type": "array",
+                  "items":{
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string"
+                      },
+                      "payload": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "visit_id": {
+                            "type": "string"
+                          },
+                          "timestamp": {
+                            "type": "string"
+                          },
+                          "event_type": {
+                            "type": "string"
+                          },
+                          "care_recipient_id": {
+                            "type": "string"
+                          },
+                          "caregiver_id": {
+                            "type": "string"
+                          },
+                          "any": {
+                            "type": "any"
+                          }
+                        }
+                      },
+                      "alert_id": {
+                        "type": "string"
+                      },
+                      "task_instance_id": {
+                        "type": "string"
+                      },
+                      "visit_id": {
+                        "type": "string"
+                      },
+                      "caregiver_id": {
+                        "type": "string"
+                      },
+                      "payload_as_text": {
+                        "type": "string"
+                      },
+                      "rejected_event_id": {
+                        "type": "string"
+                      },
+                      "observation_event_id": {
+                        "type": "string"
+                      },
+                      "timestamp": {
+                        "type": "string"
+                      },
+                      "event_type": {
+                        "type": "string"
+                      },
+                      "care_recipient_id": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Throw new Error"
+          }
+        }
+      }
+    }
+  }
+}

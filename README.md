@@ -69,6 +69,7 @@
 
 This project was build as a technical test.
 The proposal for this project was create a small web application to allow next of kins to look observations of older adults receiving care, called care recipients.
+This project was built using [**NodeJS**](https://nodejs.org/en/) and [**typescript**](https://www.typescriptlang.org/);
 
 - [Front-End Repository](https://github.com/Fred-Reis/birdie-test-frontend)
 

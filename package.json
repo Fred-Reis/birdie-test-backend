@@ -15,7 +15,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "dev": "nodemon",
-    "start": "node --loader ts-node/esm src/infra/http/server.ts"
+    "start": "node --loader ts-node/esm src/shared/infra/http/server.ts"
   },
   "dependencies": {
     "@types/cors": "^2.8.12",

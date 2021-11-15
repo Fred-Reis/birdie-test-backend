@@ -1,9 +1,8 @@
 import "reflect-metadata";
 
 import { getRepository } from "typeorm";
-import { Events } from "../entity/Events";
-
-import { AppError } from "../errors/AppError";
+import { Events } from "../entities/Events";
+import { AppError } from "../../../shared/errors/AppError";
 
 class CreateEventsService {
   // eslint-disable-next-line @typescript-eslint/explicit-function-return-type

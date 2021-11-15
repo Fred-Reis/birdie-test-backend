@@ -7,7 +7,7 @@ import { createConnection } from "typeorm";
 
 import { eventRouters } from "../routes/events.routes";
 
-import swaggerFile from "../../swagger.json";
+import swaggerFile from "../../../swagger.json";
 
 const app = express();
 // eslint-disable-next-line @typescript-eslint/no-floating-promises

@@ -1,5 +1,5 @@
 import * as express from "express";
-import { getEvents } from "../../controllers/events.controller";
+import { getEvents } from "../../../modules/events/controllers/EventsController";
 
 export const eventRouters = express.Router();
 

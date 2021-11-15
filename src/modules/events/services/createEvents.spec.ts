@@ -1,9 +1,8 @@
 /* eslint-disable @typescript-eslint/no-misused-promises */
 import request from "supertest";
 
-import { app } from "../infra/http/app";
-
 import { createConnection, getConnection } from "typeorm";
+import { app } from "../../../shared/infra/http/app";
 
 const connection = {
   async create(): Promise<void> {

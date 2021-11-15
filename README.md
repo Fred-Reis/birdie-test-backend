@@ -30,8 +30,8 @@
   <a href="#-about-this-project">
     <img src="https://img.shields.io/badge/About_Project-a5a5a5"/>
   </a>&nbsp;&nbsp;
-  <a href="#-back-end">
-    <img src="https://img.shields.io/badge/Back_End-a5a5a5"/>
+  <a href="#-back-end-challenge">
+    <img src="https://img.shields.io/badge/Back_End_Challenge-a5a5a5"/>
   </a>&nbsp;&nbsp;
   <a href="#-architecture">
     <img src="https://img.shields.io/badge/Architecture-a5a5a5"/>
@@ -39,7 +39,7 @@
   <a href="-deploy">
     <img src="https://img.shields.io/badge/Deploy-a5a5a5"/>
   </a>&nbsp;&nbsp;
-  <a href="-how-does-it-really-work?">
+  <a href="-how-does-it-really-work">
     <img src="https://img.shields.io/badge/How_does_it_really_work-a5a5a5"/>
   </a>&nbsp;&nbsp;
   <a href="#-tests">
@@ -76,7 +76,7 @@ The proposal for this project was create a small web application to allow next o
 
 <br/>
 
-## 🔙 Back-End Challenge
+## 🔙 Back End Challenge
 
 The challenge was create an API to receive a call type GET and retrieve observations recorded on a database, each event following the bellow format:
 

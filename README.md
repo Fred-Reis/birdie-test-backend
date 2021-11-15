@@ -9,7 +9,7 @@
    Care Recipient API
 </h2>
 
-<div style="display:flex;justify-content:space-between;margin:30px 0">
+<div align="center">
 
   <img alt="language version" src="https://img.shields.io/badge/Node-v_12.13.1-339933?logo=node.js">
 
@@ -25,7 +25,7 @@
 
 <h3 align="center">Links:</h3>
 
-<div style="display:flex;justify-content:space-between;padding:10px">
+<div align="center">
 
   <a href="#-about-this-project">
     <img src="https://img.shields.io/badge/About_Project-a5a5a5"/>
